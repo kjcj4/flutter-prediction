@@ -12,12 +12,14 @@
    venv\Scripts\activate     # Windows
 ## Instalar dependencias:
 
-2. pip install -r requirements.txt
+2. 
+  ```bash
+   pip install -r requirements.txt
 
 ## Crear base de datos:
-
+   -```bash
 3. psql -U postgres -f db_setup.sql
 
 ## Ejecutar servidor:
-
+   -```bash
 4. python app.py

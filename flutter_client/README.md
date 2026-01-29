@@ -2,8 +2,9 @@
 
 # nstalar PostgreSQL y crear base de datos usando db_setup.sql
 
-# Activar entorno Python y correr Flask:
-
+## Activar entorno Python y correr Flask:
+# comandos:
+   -```bash
 cd backend
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
@@ -12,15 +13,16 @@ pip install -r requirements.txt
 python app.py
 
 
-# Correr Flutter:
-
+## Correr Flutter:
+1. comandos:
+   ```bash
 cd flutter_app
 flutter pub get
 flutter run
 
-# flutter_client
+## flutter_client
 
-A new Flutter project.
+2. A new Flutter project.
 
 ## Getting Started
 
